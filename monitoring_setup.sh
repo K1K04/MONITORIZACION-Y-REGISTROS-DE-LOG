@@ -187,7 +187,7 @@ echo "[+] Instalando Grafana..."
 cd "$TMP_DIR"
 wget -q https://dl.grafana.com/oss/release/grafana-11.2.0.linux-amd64.tar.gz
 tar xzf grafana-11.2.0.linux-amd64.tar.gz
-mv grafana-11.2.0 "$INSTALL_DIR/grafana"
+mv grafana-11.2.0.linux-amd64 "$INSTALL_DIR/grafana"
 
 # Configuración de Grafana
 mkdir -p "$ETC_DIR/grafana"
